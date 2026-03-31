@@ -15,7 +15,7 @@
 # print(lst)
 
 # lst.extend([5,38,42])
-# print(lst)
+# print(lst) 
 
 # lst.remove("vijay")
 # print(lst)
