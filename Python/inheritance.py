@@ -13,7 +13,7 @@ class UPI(Payment):
         print(f"Paid rs{self.amount} using UPI")
 
 
-class Card(Payment):
+class Card(Payment):4 saASDTYUIOP]\ 
 
     def pay(self):
         print(f"Paid rs{self.amount} using Card")
