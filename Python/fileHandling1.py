@@ -7,3 +7,12 @@
 # f.write('\nHow are you')
 # f.close()
 
+# f=open('sample.txt','a')
+# f.write('Appended this line')
+# f.close()
+
+L=['Hello\n','Hi\n','How are you\n']
+
+f=open('hello.txt','w')
+f.writelines(L)
+f.close()
