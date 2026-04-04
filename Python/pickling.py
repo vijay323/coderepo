@@ -16,12 +16,9 @@ person=Person('Vijay',23)
 with open('person.pkl','wb') as f:
     pickle.dump(person,f)
 
-'''
-for loading
 
-import pickle
 
 with open('person.pkl','rb') as f:
     person=pickle.load(f)
     person.display_info()
-'''
+
