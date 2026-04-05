@@ -1,1 +1,3 @@
-hello worldAppended this lineWith context
+hello world
+Appended this line
+With context
