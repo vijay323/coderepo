@@ -1,3 +1,4 @@
 {
-    "editor.inlineSuggest.syntaxHighlightingEnabled": false
+    "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+    "python.analysis.autoImportCompletions": false
 }
