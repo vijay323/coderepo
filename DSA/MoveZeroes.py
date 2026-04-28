@@ -16,7 +16,7 @@ def MoveZeroes(nums):
             i+=1
         j+=1
     return nums
-
+ 
 print(MoveZeroes(nums))
 
 
