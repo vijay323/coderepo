@@ -1,0 +1,13 @@
+def Solution(nums):
+    n=len(nums)
+    asum=(n*(n+1))//2
+    sum=0
+    for i in nums:
+        sum=sum+i
+        k=asum-sum
+
+    return k
+
+nums=[0,3,4,1,2]
+
+print(Solution(nums))
