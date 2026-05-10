@@ -1,0 +1,45 @@
+class Node:
+    def __init__(self,val):
+        self.val=val
+        self.next=None
+
+class SinglyLinkedList:
+    def __init__(self):
+        self.head=None
+    
+    def append(self,val):
+        newNode=Node(val)
+    
+        if self.head is None:
+            self.head=newNode
+        else:
+            curr=self.head
+            while curr.next is not None:
+                curr=curr.next
+            curr.next=newNode
+
+    def traverse(self):
+        if self.head is None:
+            print('Its EMPTY')
+        else:
+            curr=self.head
+            while curr.next is not None:
+                print(curr.val,end=" ")
+                curr=curr.next
+            print(curr.val)
+
+            # print()
+
+sll=SinglyLinkedList()
+sll.append(10)
+sll.append(20)
+sll.append(20)
+sll.append(20)
+sll.append(20)
+sll.append(20)
+sll.append(20)
+sll.append(20)
+sll.append(20)
+sll.append(20)
+sll.traverse()
+
